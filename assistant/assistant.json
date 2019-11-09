@@ -1,0 +1,175 @@
+{
+  "id" : "proj_YzgXxvXrG3M",
+  "name" : "VVWo",
+  "intents" : [ {
+    "id" : "kiliankoe:Reachability",
+    "type" : "registry",
+    "version" : "0.25.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "location",
+      "id" : "BygfZB0tf",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "Wohin soll's gehen?",
+      "required" : false
+    }, {
+      "name" : "line_identifier",
+      "id" : "B1kXZr0Kf",
+      "entityId" : "entity_g0AmZ5XrlX7",
+      "missingQuestion" : "Was möchtest du erreichen?",
+      "required" : false
+    }, {
+      "name" : "vehicle_type",
+      "id" : "HktE-BCKM",
+      "entityId" : "entity_lX5zYrD7yQV",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "line_direction",
+      "id" : "rk4H-t0tG",
+      "entityId" : "entity_2wvDMMrprBx",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "Reachability",
+    "enabledByDefault" : true
+  }, {
+    "id" : "kiliankoe:Departure",
+    "type" : "registry",
+    "version" : "0.68.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "location",
+      "id" : "BJQN0QkYf",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "Wo soll ich nach Abfahrten suchen?",
+      "required" : false
+    }, {
+      "name" : "line_identifier",
+      "id" : "ry6zxEkFG",
+      "entityId" : "entity_g0AmZ5XrlX7",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "vehicle_type",
+      "id" : "SJ0X726tM",
+      "entityId" : "entity_lX5zYrD7yQV",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "line_direction",
+      "id" : "BkO8ZLxqf",
+      "entityId" : "entity_2wvDMMrprBx",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "Departure",
+    "enabledByDefault" : true
+  }, {
+    "id" : "kiliankoe:Disruption",
+    "type" : "registry",
+    "version" : "0.6.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "location",
+      "id" : "Syl02natM",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "line_identifier",
+      "id" : "BkDkanptz",
+      "entityId" : "entity_g0AmZ5XrlX7",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "Disruption",
+    "enabledByDefault" : true
+  }, {
+    "id" : "kiliankoe:Notification",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "reminderOffset",
+      "id" : "bbLrG5hgd",
+      "entityId" : "snips/duration",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "line",
+      "id" : "tFI0Uf_bp",
+      "entityId" : "entity_g0AmZ5XrlX7",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "Notification",
+    "enabledByDefault" : true
+  }, {
+    "id" : "kiliankoe:Search",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "location",
+      "id" : "B1H43h6tM",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "Wonach suchst du?",
+      "required" : true
+    } ],
+    "name" : "Search",
+    "enabledByDefault" : true
+  }, {
+    "id" : "kiliankoe:Route",
+    "type" : "registry",
+    "version" : "0.56.0",
+    "language" : "de",
+    "slots" : [ {
+      "name" : "location_origin",
+      "id" : "HyDykVJFM",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "location_destination",
+      "id" : "r1BZkNyFG",
+      "entityId" : "entity_Qoxvap8Nmxv",
+      "missingQuestion" : "Wo soll's hingehen?",
+      "required" : true
+    }, {
+      "name" : "time",
+      "id" : "B1qCRrJYf",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "line_identifier",
+      "id" : "SJx4NaTtG",
+      "entityId" : "entity_g0AmZ5XrlX7",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "vehicle_type",
+      "id" : "B18H3ECYz",
+      "entityId" : "entity_lX5zYrD7yQV",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "Route",
+    "enabledByDefault" : true
+  } ],
+  "createdAt" : "2018-03-20T06:22:50.713Z",
+  "language" : "de",
+  "version" : {
+    "nluModel" : "0.20.1"
+  },
+  "platform" : {
+    "type" : "raspberrypi"
+  },
+  "asr" : {
+    "type" : "none"
+  },
+  "analyticsEnabled" : false,
+  "heartbeatEnabled" : true,
+  "hotword" : "hey_snips"
+}

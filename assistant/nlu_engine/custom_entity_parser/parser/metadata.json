@@ -1,0 +1,20 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "line_direction",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "line_identifier",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "location",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "vehicle_type",
+      "entity_parser": "parser_4"
+    }
+  ]
+}
