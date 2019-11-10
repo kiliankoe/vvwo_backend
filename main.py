@@ -3,7 +3,7 @@ from snips_nlu import SnipsNLUEngine
 
 app = Flask(__name__)
 
-engine = SnipsNLUEngine.from_path('assistant/nlu_engine/')
+engine = SnipsNLUEngine.from_path('/nlu_engine/')
 
 
 @app.route('/query', methods=['POST'])
